@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": "post-1",
+      "videoId": "dQw4w9WgXcQ",
+      "title": "Welcome to My Blog",
+      "description": "This is a sample blog post. Replace this with your own content by editing posts.json",
+      "date": "2025-01-02",
+      "tags": ["welcome", "introduction"]
+    }
+  ]
+}
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Video Blog</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Video Blog</h1>
+        <p class="subtitle">A simple blog powered by YouTube videos</p>
+    </header>
+    
+    <main>
+        <div class="posts-container">
+            
+        <article class="post-card" data-video-id="dQw4w9WgXcQ">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Welcome to My Blog" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <h2 class="post-title">Welcome to My Blog</h2>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        January 2, 2025
+                    </span>
+                </div>
+                <p class="post-description">This is a sample blog post. Replace this with your own content by editing posts.json</p>
+                <div class="post-tags"><span class="tag">welcome</span><span class="tag">introduction</span></div>
+            </div>
+        </article>
+    
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Video Blog. Built with vanilla JavaScript.</p>
+    </footer>
+    
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="video-wrapper">
+                <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{BLOG_TITLE}}</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <h1>{{BLOG_TITLE}}</h1>
+        <p class="subtitle">{{BLOG_SUBTITLE}}</p>
+    </header>
+    
+    <main>
+        <div class="posts-container">
+            {{POSTS_CONTENT}}
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; {{CURRENT_YEAR}} {{BLOG_TITLE}}. Built with vanilla JavaScript.</p>
+    </footer>
+    
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="video-wrapper">
+                <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/script.js"></script>
+</body>
+</html>
+
