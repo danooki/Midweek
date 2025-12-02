@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const BLOG_TITLE = 'My Video Blog';
-const BLOG_SUBTITLE = 'A simple blog powered by YouTube videos';
+const BLOG_TITLE = 'Midweek Shot';
+const BLOG_SUBTITLE = 'interesting & curious video every week.';
 
 // Read posts.json
 function readPosts() {
