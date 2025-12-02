@@ -124,3 +124,4 @@ Works in all modern browsers (Chrome, Firefox, Safari, Edge).
 
 Feel free to use this for your own projects!
 
+# Midweek
