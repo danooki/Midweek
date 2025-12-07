@@ -1,6 +1,7 @@
 # Midweek Shot
 
-A minimal, static blog generator for GitHub Pages that displays YouTube videos. No backend required, zero npm dependencies.
+My youtube video log in a minimal static viewer hosted on GitHub Pages.
+No backend required, zero npm dependencies ;)
 
 ## Features
 
@@ -22,7 +23,7 @@ Edit `posts.json`:
     {
       "id": "unique-id",
       "videoId": "youtube-video-id",
-      "title": "My First Video",
+      "title": "That Youtube Video",
       "description": "This is a description...",
       "date": "2025-01-02",
       "tags": ["tag1", "tag2"]
@@ -31,15 +32,13 @@ Edit `posts.json`:
 }
 ```
 
-**Fields:** `id`, `videoId` (YouTube ID after `v=`), `title`, `description`, `date` (YYYY-MM-DD), `tags` (optional)
-
 ### 2. Build the Site
 
 ```bash
 node build.js
 ```
 
-This generates `index.html` from your `posts.json` file.
+This generates `index.html` from `posts.json` file.
 
 ## Project Structure
 
@@ -55,8 +54,15 @@ This generates `index.html` from your `posts.json` file.
 └── README.md
 ```
 
-## Customization
+## Understanding the Build System
 
+This project uses a build system to generate `index.html`:
+
+- **`src/template.html`** - This is the source template file with placeholders (`{{BLOG_TITLE}}`, `{{POSTS_CONTENT}}`). Edit this file to change the HTML structure.
+- **`index.html`** - This is the generated output file. **No need to edit this** - it gets overwritten when running `node build.js`.
+- **`build.js`** - Reads `src/template.html` and `posts.json`, then generates `index.html`.
+
+**Workflow:** Edit `src/template.html` for structure changes → Edit `posts.json` for content → Run `node build.js` to regenerate `index.html`.
 **Blog Title/Subtitle:** Edit `build.js`:
 
 ```javascript
@@ -70,4 +76,4 @@ const BLOG_SUBTITLE = "interesting & curious video every week.";
 
 ## Auto-Building
 
-GitHub Actions can automatically rebuild when you push changes. See `.github/workflows/build.yml`.
+GitHub Actions can automatically rebuild when pushing changes. See `.github/workflows/build.yml`.
