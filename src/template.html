@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{BLOG_TITLE}}</title>
     <link rel="stylesheet" href="src/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>{{BLOG_TITLE}}</h1>
-        <p class="subtitle">{{BLOG_SUBTITLE}}</p>
-    </header>
-    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="/" class="nav-brand">
+                <h1>{{BLOG_TITLE}}</h1>
+                <p class="subtitle">{{BLOG_SUBTITLE}}</p>
+            </a>
+            <div class="nav-actions">
+                <a href="/" class="nav-home" title="Home">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </a>
+                <div class="tag-filters">
+                    <button class="tag-filter" data-tag="Politic">Politic</button>
+                    <button class="tag-filter" data-tag="Gender">Gender</button>
+                    <button class="tag-filter" data-tag="Social">Social</button>
+                    <button class="tag-filter" data-tag="Economy">Economy</button>
+                    <button class="tag-filter" data-tag="Art">Art</button>
+                    <button class="tag-filter" data-tag="Science">Science</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="posts-container">
             {{POSTS_CONTENT}}
         </div>
     </main>
-    
+
     <footer>
         <p>Super simple JavaScript video blog made in 2025 by Daniel Fuentealba</p>
     </footer>
-    
+
     <!-- Video Modal -->
     <div id="videoModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="video-wrapper">
-                <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="videoFrame" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
-    
+
     <script src="src/js/modal.js"></script>
     <script src="src/js/posts.js"></script>
+    <script src="src/js/filter.js"></script>
     <script src="src/js/main.js"></script>
 </body>
+
 </html>

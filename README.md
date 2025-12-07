@@ -4,15 +4,15 @@ A minimal, static blog generator for GitHub Pages that displays YouTube videos. 
 
 ## Features
 
-- ✅ **No Backend Required** - Pure static site generation
-- ✅ **YouTube Integration** - Displays thumbnails and embeds videos
-- ✅ **Responsive Design** - Works on mobile, tablet, and desktop
-- ✅ **Zero Dependencies** - Uses only Node.js built-in modules
-- ✅ **Simple Content Management** - Just edit a JSON file to add posts
+- **No Backend Required** - Pure static site generation
+- **YouTube Integration** - Displays thumbnails and embeds videos
+- **Responsive Design** - Works on mobile, tablet, and desktop
+- **Zero Dependencies** - Uses only Node.js built-in modules
+- **Simple Content Management** - Just edit a JSON file to add posts
 
 ## Quick Start
 
-### 1. Add Your Blog Posts
+### 1. Add Blog Posts
 
 Edit `posts.json`:
 
@@ -68,14 +68,6 @@ const BLOG_SUBTITLE = "interesting & curious video every week.";
 
 **Template:** Edit `src/template.html`
 
-## Getting YouTube Video IDs
-
-From URL `https://www.youtube.com/watch?v=dQw4w9WgXcQ`, the video ID is `dQw4w9WgXcQ` (the part after `v=`).
-
 ## Auto-Building
 
 GitHub Actions can automatically rebuild when you push changes. See `.github/workflows/build.yml`.
-
-## License
-
-Feel free to use this for your own projects!

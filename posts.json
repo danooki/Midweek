@@ -1,13 +1,202 @@
 {
   "posts": [
     {
-      "id": "post-1",
-      "videoId": "dQw4w9WgXcQ",
-      "title": "Welcome to My Blog",
-      "description": "This is a sample blog post. Replace this with your own content by editing posts.json",
-      "date": "2025-01-02",
-      "tags": ["welcome", "introduction"]
+      "id": "post-2",
+      "videoId": "8enXRDlWguU",
+      "title": "Karen Hao - AI is built with hidden work from people in poor countries",
+      "description": "AI is built with hidden work from people in poor countries",
+      "date": "2025-07-02",
+      "language": "ENG",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-3",
+      "videoId": "5hCuv16pzjs",
+      "title": "ColdCrashPictures - Gender & Jurassic Park",
+      "description": "Gender & Jurassic Park",
+      "date": "2025-07-10",
+      "language": "ENG",
+      "tags": ["Gender"]
+    },
+    {
+      "id": "post-4",
+      "videoId": "exheGjFGNko",
+      "title": "Renegade Cut - Thanos: Eugenics and overpopulation",
+      "description": "Thanos: Eugenics and overpopulation",
+      "date": "2025-07-16",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-5",
+      "videoId": "YpFLNY_gdls",
+      "title": "Philosophy Coded - Why stupid people is elected",
+      "description": "Why stupid people is elected",
+      "date": "2025-07-23",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-6",
+      "videoId": "HG_Q9WnOuxU",
+      "title": "Philosophize This - Michael Focault",
+      "description": "Michael Focault",
+      "date": "2025-07-30",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-7",
+      "videoId": "coHAeijjAXc",
+      "title": "PutoMikel - Buenos amigos",
+      "description": "Buenos amigos",
+      "date": "2025-08-06",
+      "language": "SPA",
+      "tags": ["Gender"]
+    },
+    {
+      "id": "post-8",
+      "videoId": "9GorqroigqM",
+      "title": "Story of Stuff - Story of Stuff",
+      "description": "Story of Stuff",
+      "date": "2025-08-13",
+      "language": "ENG",
+      "tags": ["Economy"]
+    },
+    {
+      "id": "post-9",
+      "videoId": "Rlw3KijUSmM",
+      "title": "Carlos Maza - How media protect police",
+      "description": "How media protect police",
+      "date": "2025-08-20",
+      "language": "ENG",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-10",
+      "videoId": "IBcB_dYtGUg",
+      "title": "Great Art explained in 15 minutes - Great wave of Hokusai",
+      "description": "Great wave of Hokusai",
+      "date": "2025-08-27",
+      "language": "ENG",
+      "tags": ["Art"]
+    },
+    {
+      "id": "post-11",
+      "videoId": "WXayhUzWnl0",
+      "title": "Rory Oneill - Panti's Noble Call",
+      "description": "Panti's Noble Call",
+      "date": "2025-09-03",
+      "language": "ENG",
+      "tags": ["Gender"]
+    },
+    {
+      "id": "post-12",
+      "videoId": "bxXIVt83hI0",
+      "title": "Boe Hoerman - The aesthetics of Fascism",
+      "description": "The aesthetics of Fascism",
+      "date": "2025-09-10",
+      "language": "ENG",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-13",
+      "videoId": "t7Xr3AsBEK4",
+      "title": "Ted Talk - Sherry Turkle: Connected but Alone",
+      "description": "Sherry Turkle: Connected but Alone",
+      "date": "2025-09-17",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-14",
+      "videoId": "W94Rth-aIkc",
+      "title": "Atlas Pro - 7 continents of biogeography",
+      "description": "7 continents of biogeography",
+      "date": "2025-09-24",
+      "language": "ENG",
+      "tags": ["Science"]
+    },
+    {
+      "id": "post-15",
+      "videoId": "Y6PnlPw9sIg",
+      "title": "Solar Sands - Reality isnt always right",
+      "description": "Reality isnt always right",
+      "date": "2025-10-01",
+      "language": "ENG",
+      "tags": ["Art"]
+    },
+    {
+      "id": "post-16",
+      "videoId": "DsVzKCk066g",
+      "title": "LonerBox - What is a woman",
+      "description": "What is a woman",
+      "date": "2025-10-08",
+      "language": "ENG",
+      "tags": ["Gender"]
+    },
+    {
+      "id": "post-17",
+      "videoId": "7IsMeKl-Sv0",
+      "title": "Not Just Bikes - Why cities are broke",
+      "description": "Why cities are broke",
+      "date": "2025-10-15",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-18",
+      "videoId": "DsVzKCk066g",
+      "title": "What I've Learned - Exercise and the brain",
+      "description": "Exercise and the brain",
+      "date": "2025-10-22",
+      "language": "ENG",
+      "tags": ["Science"]
+    },
+    {
+      "id": "post-19",
+      "videoId": "bVG2OQp6jEQ",
+      "title": "Zach Star - How easy is to lie with statistics",
+      "description": "How easy is to lie with statistics",
+      "date": "2025-11-05",
+      "language": "ENG",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-20",
+      "videoId": "JcUZszps8LA",
+      "title": "Rationality Rules - When You Should LOSE an Argument on Purpose",
+      "description": "When You Should LOSE an Argument on Purpose",
+      "date": "2025-11-11",
+      "language": "ENG",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-21",
+      "videoId": "IiMfndq1tjo?t=498",
+      "title": "Daniel Matamala - Giro a la ultra derecha",
+      "description": "Giro a la utlra derecha",
+      "date": "2025-11-21",
+      "language": "SPA",
+      "tags": ["Politic"]
+    },
+    {
+      "id": "post-22",
+      "videoId": "B8ofWFx525s",
+      "title": "Ted Talk - Eli Pariser - Filter Bubble",
+      "description": "Eli Pariser - Filter Bubble",
+      "date": "2025-11-28",
+      "language": "ENG",
+      "tags": ["Social"]
+    },
+    {
+      "id": "post-23",
+      "videoId": "ofFR1mD2UOM",
+      "title": "New Economic Thinking - How Economists Invented Austerity & Paved the Way to Fascism",
+      "description": "Austerity wasn't about budgets. It was a way to push peoople back into dependence on bosses and old hierarchies. By making life harder and cutting public support, it weakened workers's ability to fight for change, showing how ecomonic rules can quielty shape power and control",
+      "date": "2025-12-04",
+      "language": "ENG",
+      "tags": ["Economy"]
     }
   ]
 }
-

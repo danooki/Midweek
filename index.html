@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midweek Shot</title>
     <link rel="stylesheet" href="src/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Midweek Shot</h1>
-        <p class="subtitle">interesting & curious video every week.</p>
-    </header>
-    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="/" class="nav-brand">
+                <h1>Midweek Shot</h1>
+                <p class="subtitle">interesting & curious video every week.</p>
+            </a>
+            <div class="nav-actions">
+                <a href="/" class="nav-home" title="Home">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </a>
+                <div class="tag-filters">
+                    <button class="tag-filter" data-tag="Politic">Politic</button>
+                    <button class="tag-filter" data-tag="Gender">Gender</button>
+                    <button class="tag-filter" data-tag="Social">Social</button>
+                    <button class="tag-filter" data-tag="Economy">Economy</button>
+                    <button class="tag-filter" data-tag="Art">Art</button>
+                    <button class="tag-filter" data-tag="Science">Science</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <main>
         <div class="posts-container">
             
-        <article class="post-card" data-video-id="dQw4w9WgXcQ">
+        <article class="post-card" data-video-id="ofFR1mD2UOM" data-tags="Economy">
             <div class="thumbnail-container">
-                <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Welcome to My Blog" loading="lazy">
+                <img src="https://img.youtube.com/vi/ofFR1mD2UOM/maxresdefault.jpg" alt="New Economic Thinking - How Economists Invented Austerity & Paved the Way to Fascism" loading="lazy">
                 <div class="play-button"></div>
             </div>
             <div class="post-content">
-                <h2 class="post-title">Welcome to My Blog</h2>
+                <div class="post-header">
+                    <h2 class="post-title">New Economic Thinking - How Economists Invented Austerity & Paved the Way to Fascism</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=ofFR1mD2UOM" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
                 <div class="post-meta">
                     <span class="post-date">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -30,33 +62,730 @@
                             <line x1="8" y1="2" x2="8" y2="6"></line>
                             <line x1="3" y1="10" x2="21" y2="10"></line>
                         </svg>
-                        January 2, 2025
+                        December 4, 2025
                     </span>
                 </div>
-                <p class="post-description">This is a sample blog post. Replace this with your own content by editing posts.json</p>
-                <div class="post-tags"><span class="tag">welcome</span><span class="tag">introduction</span></div>
+                <p class="post-description">Austerity wasn't about budgets. It was a way to push peoople back into dependence on bosses and old hierarchies. By making life harder and cutting public support, it weakened workers's ability to fight for change, showing how ecomonic rules can quielty shape power and control</p>
+                <div class="post-tags"><span class="tag">Economy</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="B8ofWFx525s" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/B8ofWFx525s/maxresdefault.jpg" alt="Ted Talk - Eli Pariser - Filter Bubble" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Ted Talk - Eli Pariser - Filter Bubble</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=B8ofWFx525s" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        November 28, 2025
+                    </span>
+                </div>
+                <p class="post-description">Eli Pariser - Filter Bubble</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="IiMfndq1tjo?t=498" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/IiMfndq1tjo?t=498/maxresdefault.jpg" alt="Daniel Matamala - Giro a la ultra derecha" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Daniel Matamala - Giro a la ultra derecha</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">SPA</span>
+                        <a href="https://www.youtube.com/watch?v=IiMfndq1tjo?t=498" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        November 21, 2025
+                    </span>
+                </div>
+                <p class="post-description">Giro a la utlra derecha</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="JcUZszps8LA" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/JcUZszps8LA/maxresdefault.jpg" alt="Rationality Rules - When You Should LOSE an Argument on Purpose" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Rationality Rules - When You Should LOSE an Argument on Purpose</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=JcUZszps8LA" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        November 11, 2025
+                    </span>
+                </div>
+                <p class="post-description">When You Should LOSE an Argument on Purpose</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="bVG2OQp6jEQ" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/bVG2OQp6jEQ/maxresdefault.jpg" alt="Zach Star - How easy is to lie with statistics" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Zach Star - How easy is to lie with statistics</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=bVG2OQp6jEQ" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        November 5, 2025
+                    </span>
+                </div>
+                <p class="post-description">How easy is to lie with statistics</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="DsVzKCk066g" data-tags="Science">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/DsVzKCk066g/maxresdefault.jpg" alt="What I've Learned - Exercise and the brain" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">What I've Learned - Exercise and the brain</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=DsVzKCk066g" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        October 22, 2025
+                    </span>
+                </div>
+                <p class="post-description">Exercise and the brain</p>
+                <div class="post-tags"><span class="tag">Science</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="7IsMeKl-Sv0" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/7IsMeKl-Sv0/maxresdefault.jpg" alt="Not Just Bikes - Why cities are broke" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Not Just Bikes - Why cities are broke</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=7IsMeKl-Sv0" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        October 15, 2025
+                    </span>
+                </div>
+                <p class="post-description">Why cities are broke</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="DsVzKCk066g" data-tags="Gender">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/DsVzKCk066g/maxresdefault.jpg" alt="LonerBox - What is a woman" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">LonerBox - What is a woman</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=DsVzKCk066g" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        October 8, 2025
+                    </span>
+                </div>
+                <p class="post-description">What is a woman</p>
+                <div class="post-tags"><span class="tag">Gender</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="Y6PnlPw9sIg" data-tags="Art">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/Y6PnlPw9sIg/maxresdefault.jpg" alt="Solar Sands - Reality isnt always right" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Solar Sands - Reality isnt always right</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=Y6PnlPw9sIg" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        October 1, 2025
+                    </span>
+                </div>
+                <p class="post-description">Reality isnt always right</p>
+                <div class="post-tags"><span class="tag">Art</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="W94Rth-aIkc" data-tags="Science">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/W94Rth-aIkc/maxresdefault.jpg" alt="Atlas Pro - 7 continents of biogeography" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Atlas Pro - 7 continents of biogeography</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=W94Rth-aIkc" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        September 24, 2025
+                    </span>
+                </div>
+                <p class="post-description">7 continents of biogeography</p>
+                <div class="post-tags"><span class="tag">Science</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="t7Xr3AsBEK4" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/t7Xr3AsBEK4/maxresdefault.jpg" alt="Ted Talk - Sherry Turkle: Connected but Alone" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Ted Talk - Sherry Turkle: Connected but Alone</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=t7Xr3AsBEK4" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        September 17, 2025
+                    </span>
+                </div>
+                <p class="post-description">Sherry Turkle: Connected but Alone</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="bxXIVt83hI0" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/bxXIVt83hI0/maxresdefault.jpg" alt="Boe Hoerman - The aesthetics of Fascism" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Boe Hoerman - The aesthetics of Fascism</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=bxXIVt83hI0" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        September 10, 2025
+                    </span>
+                </div>
+                <p class="post-description">The aesthetics of Fascism</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="WXayhUzWnl0" data-tags="Gender">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/WXayhUzWnl0/maxresdefault.jpg" alt="Rory Oneill - Panti's Noble Call" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Rory Oneill - Panti's Noble Call</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=WXayhUzWnl0" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        September 3, 2025
+                    </span>
+                </div>
+                <p class="post-description">Panti's Noble Call</p>
+                <div class="post-tags"><span class="tag">Gender</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="IBcB_dYtGUg" data-tags="Art">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/IBcB_dYtGUg/maxresdefault.jpg" alt="Great Art explained in 15 minutes - Great wave of Hokusai" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Great Art explained in 15 minutes - Great wave of Hokusai</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=IBcB_dYtGUg" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        August 27, 2025
+                    </span>
+                </div>
+                <p class="post-description">Great wave of Hokusai</p>
+                <div class="post-tags"><span class="tag">Art</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="Rlw3KijUSmM" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/Rlw3KijUSmM/maxresdefault.jpg" alt="Carlos Maza - How media protect police" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Carlos Maza - How media protect police</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=Rlw3KijUSmM" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        August 20, 2025
+                    </span>
+                </div>
+                <p class="post-description">How media protect police</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="9GorqroigqM" data-tags="Economy">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/9GorqroigqM/maxresdefault.jpg" alt="Story of Stuff - Story of Stuff" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Story of Stuff - Story of Stuff</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=9GorqroigqM" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        August 13, 2025
+                    </span>
+                </div>
+                <p class="post-description">Story of Stuff</p>
+                <div class="post-tags"><span class="tag">Economy</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="coHAeijjAXc" data-tags="Gender">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/coHAeijjAXc/maxresdefault.jpg" alt="PutoMikel - Buenos amigos" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">PutoMikel - Buenos amigos</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">SPA</span>
+                        <a href="https://www.youtube.com/watch?v=coHAeijjAXc" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        August 6, 2025
+                    </span>
+                </div>
+                <p class="post-description">Buenos amigos</p>
+                <div class="post-tags"><span class="tag">Gender</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="HG_Q9WnOuxU" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/HG_Q9WnOuxU/maxresdefault.jpg" alt="Philosophize This - Michael Focault" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Philosophize This - Michael Focault</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=HG_Q9WnOuxU" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        July 30, 2025
+                    </span>
+                </div>
+                <p class="post-description">Michael Focault</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="YpFLNY_gdls" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/YpFLNY_gdls/maxresdefault.jpg" alt="Philosophy Coded - Why stupid people is elected" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Philosophy Coded - Why stupid people is elected</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=YpFLNY_gdls" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        July 23, 2025
+                    </span>
+                </div>
+                <p class="post-description">Why stupid people is elected</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="exheGjFGNko" data-tags="Social">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/exheGjFGNko/maxresdefault.jpg" alt="Renegade Cut - Thanos: Eugenics and overpopulation" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Renegade Cut - Thanos: Eugenics and overpopulation</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=exheGjFGNko" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        July 16, 2025
+                    </span>
+                </div>
+                <p class="post-description">Thanos: Eugenics and overpopulation</p>
+                <div class="post-tags"><span class="tag">Social</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="5hCuv16pzjs" data-tags="Gender">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/5hCuv16pzjs/maxresdefault.jpg" alt="ColdCrashPictures - Gender & Jurassic Park" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">ColdCrashPictures - Gender & Jurassic Park</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=5hCuv16pzjs" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        July 10, 2025
+                    </span>
+                </div>
+                <p class="post-description">Gender & Jurassic Park</p>
+                <div class="post-tags"><span class="tag">Gender</span></div>
+            </div>
+        </article>
+    
+        <article class="post-card" data-video-id="8enXRDlWguU" data-tags="Politic">
+            <div class="thumbnail-container">
+                <img src="https://img.youtube.com/vi/8enXRDlWguU/maxresdefault.jpg" alt="Karen Hao - AI is built with hidden work from people in poor countries" loading="lazy">
+                <div class="play-button"></div>
+            </div>
+            <div class="post-content">
+                <div class="post-header">
+                    <h2 class="post-title">Karen Hao - AI is built with hidden work from people in poor countries</h2>
+                    <div class="post-header-badges">
+                        <span class="post-language">ENG</span>
+                        <a href="https://www.youtube.com/watch?v=8enXRDlWguU" target="_blank" rel="noopener noreferrer" class="youtube-button" title="Open the video in Youtube">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+  </a>
+                    </div>
+                </div>
+                <div class="post-meta">
+                    <span class="post-date">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                        July 2, 2025
+                    </span>
+                </div>
+                <p class="post-description">AI is built with hidden work from people in poor countries</p>
+                <div class="post-tags"><span class="tag">Politic</span></div>
             </div>
         </article>
     
         </div>
     </main>
-    
+
     <footer>
         <p>Super simple JavaScript video blog made in 2025 by Daniel Fuentealba</p>
     </footer>
-    
+
     <!-- Video Modal -->
     <div id="videoModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="video-wrapper">
-                <iframe id="videoFrame" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="videoFrame" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
-    
+
     <script src="src/js/modal.js"></script>
     <script src="src/js/posts.js"></script>
+    <script src="src/js/filter.js"></script>
     <script src="src/js/main.js"></script>
 </body>
+
 </html>
