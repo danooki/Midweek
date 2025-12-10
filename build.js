@@ -36,6 +36,12 @@ function formatDate(dateString) {
   });
 }
 
+// Format description - convert newlines to <br> tags
+function formatDescription(description) {
+  if (!description) return "";
+  return description.replace(/\n/g, "<br>");
+}
+
 // Generate post HTML
 function generatePostHTML(post) {
   const thumbnailUrl = `https://img.youtube.com/vi/${post.videoId}/maxresdefault.jpg`;
@@ -93,7 +99,7 @@ function generatePostHTML(post) {
                         ${formatDate(post.date)}
                     </span>
                 </div>
-                <p class="post-description">${post.description}</p>
+                <p class="post-description">${formatDescription(post.description)}</p>
                 ${tagsHTML}
             </div>
         </article>

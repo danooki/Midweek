@@ -148,7 +148,7 @@
       "id": "post-18",
       "videoId": "DsVzKCk066g",
       "title": "What I've Learned - Exercise and the brain",
-      "description": "Exercise and the brain",
+      "description": "   Every time you move, your brain makes new connections, like building roads between brain cities.\nAND WELL, The more roads you have, the faster your brain can solve problems, focus better, handle stress, and maybe even be a little less of grumpy genius.",
       "date": "2025-10-22",
       "language": "ENG",
       "tags": ["Science"]
@@ -157,7 +157,7 @@
       "id": "post-19",
       "videoId": "bVG2OQp6jEQ",
       "title": "Zach Star - How easy is to lie with statistics",
-      "description": "How easy is to lie with statistics",
+      "description": " The video uncovers classic data traps: like believing one thing causes another just because they happen together, or falling for sneaky graphs that distort information.\nIt encourages you to question numbers instead of just accepting them.",
       "date": "2025-11-05",
       "language": "ENG",
       "tags": ["Politic"]
@@ -166,7 +166,7 @@
       "id": "post-20",
       "videoId": "JcUZszps8LA",
       "title": "Rationality Rules - When You Should LOSE an Argument on Purpose",
-      "description": "When You Should LOSE an Argument on Purpose",
+      "description": " I loved this video. You all know that Jubilee debate with Mehdi Hasan, right? This is easily the best breakdown of it.\nIt shows how he exposes hypocrisy, stays calm under pressure, and stands firm with courage. The brilliance is NOT about winning: it’s about dismantling stupidity.",
       "date": "2025-11-11",
       "language": "ENG",
       "tags": ["Politic"]
@@ -175,7 +175,7 @@
       "id": "post-21",
       "videoId": "IiMfndq1tjo?t=498",
       "title": "Daniel Matamala - Giro a la ultra derecha",
-      "description": "Giro a la utlra derecha",
+      "description": " Más allá de golpes de estado, la ultra-derecha (far right) debilita la democracia de forma lenta: intervienen el poder judicial, fiscalías, gobiernan por decreto y reduce la independencia de las instituciones.\nCon ejemplos actuales, la entrevista es ideal si  sienten que la política es dificil de entender.",
       "date": "2025-11-21",
       "language": "SPA",
       "tags": ["Politic"]
@@ -184,7 +184,7 @@
       "id": "post-22",
       "videoId": "B8ofWFx525s",
       "title": "Ted Talk - Eli Pariser - Filter Bubble",
-      "description": "Eli Pariser - Filter Bubble",
+      "description": "(2011) OLD BUT GOLD: The internet shows us info that matches our tastes and habits.\nBecause of that, we miss different opinions, important news, and ideas that challenge us.\nThis helps explain how people can end up with narrower or distorted views without even noticing.",
       "date": "2025-11-28",
       "language": "ENG",
       "tags": ["Social"]
@@ -193,10 +193,19 @@
       "id": "post-23",
       "videoId": "ofFR1mD2UOM",
       "title": "New Economic Thinking - How Economists Invented Austerity & Paved the Way to Fascism",
-      "description": "Austerity wasn't about budgets. It was a way to push peoople back into dependence on bosses and old hierarchies. By making life harder and cutting public support, it weakened workers's ability to fight for change, showing how ecomonic rules can quielty shape power and control",
+      "description": "Austerity wasn't about budgets. It was a way to push peoople back into dependence on bosses and old hierarchies.\n By making life harder and cutting public support, it weakened workers's ability to fight for change, showing how ecomonic rules can quielty shape power and control",
       "date": "2025-12-04",
       "language": "ENG",
       "tags": ["Economy"]
+    },
+    {
+      "id": "post-24",
+      "videoId": "U8tQJrb3mBk",
+      "title": "That Art History Girl - A history of feminist Art",
+      "description": "Feminist art wasn't just about making new images, it was about fighting the world that tried to define women for them.\nI like how this video brings the icons and rebels who used performance, craft, and raw honesty to expose the inequalities everyone else tried to ignore.",
+      "date": "2025-12-11",
+      "language": "ENG",
+      "tags": ["Art"]
     }
   ]
 }
