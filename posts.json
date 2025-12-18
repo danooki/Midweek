@@ -58,7 +58,7 @@
       "id": "post-8",
       "videoId": "9GorqroigqM",
       "title": "Story of Stuff - Story of Stuff",
-      "description": "Story of Stuff",
+      "description": "Still a gem, Story of Stuff (2007) mixes playful animation with sharp critique, revealing how production and consumption drive waste and inequality.\nIts message: ditch the myth of linear economy and build systems that protect ecosystems.",
       "date": "2025-08-13",
       "language": "ENG",
       "tags": ["Economy"]
@@ -103,7 +103,7 @@
       "id": "post-13",
       "videoId": "t7Xr3AsBEK4",
       "title": "Ted Talk - Sherry Turkle: Connected but Alone",
-      "description": "Sherry Turkle: Connected but Alone",
+      "description": "Technological devices let us control and edit our interactions, avoiding awkwardness or spontaneity.\nReal human connection requires openness, unpredictability, and vulnerability. Without them, every conversation can end up feeling like a polished performance.",
       "date": "2025-09-17",
       "language": "ENG",
       "tags": ["Social"]
@@ -112,7 +112,7 @@
       "id": "post-14",
       "videoId": "W94Rth-aIkc",
       "title": "Atlas Pro - 7 continents of biogeography",
-      "description": "7 continents of biogeography",
+      "description": "Humans name lands after culture, history, and in some special cases based on their egos.\nThe video explores how drift, isolation and evolution created realms with unique biomes and species, reminding us nature defines boundaries far beyond our PETITE SMALL tiny political brains.",
       "date": "2025-09-24",
       "language": "ENG",
       "tags": ["Science"]
@@ -121,7 +121,7 @@
       "id": "post-15",
       "videoId": "Y6PnlPw9sIg",
       "title": "Solar Sands - Reality isnt always right",
-      "description": "Reality isnt always right",
+      "description": "Think of art, or even food ads, like storytelling with visuals: even when it looks realistic, the artist has chosen what to show, what to leave out and how to frame it.\nThat means it can guide how you feel or think. this is not a bad thing, but only important to notice when it happens.",
       "date": "2025-10-01",
       "language": "ENG",
       "tags": ["Art"]
@@ -130,7 +130,7 @@
       "id": "post-16",
       "videoId": "DsVzKCk066g",
       "title": "LonerBox - What is a woman",
-      "description": "What is a woman",
+      "description": "The definition of \"woman\" has real consequences for safety, rights and dignity. Narrow definitions risk excluding those wo do not fit strict biological criteria (like chromosomes) leading to stigma, discrimination and harm.\nDefinitions matter because legal policy, social recognition, and rights often depend on them.",
       "date": "2025-10-08",
       "language": "ENG",
       "tags": ["Gender"]
@@ -139,7 +139,7 @@
       "id": "post-17",
       "videoId": "7IsMeKl-Sv0",
       "title": "Not Just Bikes - Why cities are broke",
-      "description": "Why cities are broke",
+      "description": "Cities pay for old roads and services with money from new development, like paying one credit card with another.\nIt works only while growth continues; but when expanding the city slows down, the bills pile up.\nCities must reinvest in existing areas and build smarter, not just grow for the sake of growing.",
       "date": "2025-10-15",
       "language": "ENG",
       "tags": ["Social"]
@@ -148,7 +148,7 @@
       "id": "post-18",
       "videoId": "DsVzKCk066g",
       "title": "What I've Learned - Exercise and the brain",
-      "description": "   Every time you move, your brain makes new connections, like building roads between brain cities.\nAND WELL, The more roads you have, the faster your brain can solve problems, focus better, handle stress, and maybe even be a little less of grumpy genius.",
+      "description": " Every time you move, your brain makes new connections, like building roads between brain cities.\nAND WELL, The more roads you have, the faster your brain can solve problems, focus better, handle stress, and maybe even be a little less of grumpy genius.",
       "date": "2025-10-22",
       "language": "ENG",
       "tags": ["Science"]
@@ -206,6 +206,15 @@
       "date": "2025-12-11",
       "language": "ENG",
       "tags": ["Art"]
+    },
+    {
+      "id": "post-25",
+      "videoId": "yRlbUeji01U",
+      "title": "Money & Macro - How the Nazis created an economic miracle",
+      "description": "It shows how debt, repression and militarization fake prosperity, why such systems rely on permanent crisis or war to survive.\nSimple look at those \"state of emergency\" and constant crisis reminders usually end up in models that implode, and never reflect true social or national well-being.",
+      "date": "2025-12-18",
+      "language": "ENG",
+      "tags": ["Economy"]
     }
   ]
 }
